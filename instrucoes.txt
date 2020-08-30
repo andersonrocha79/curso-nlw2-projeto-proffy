@@ -1,0 +1,90 @@
+* criando um novo projeto react (web)
+--------------------------------------------------------------------------------------------------------------
+
+- instalar o node, yarn e vscode
+
+- utilizando yarn
+  yarn create react-app web --template typescript
+
+- utilizando node
+  npx create-react-app web --template typescript  
+
+* executando a aplicação
+
+- yarn start	
+- npm start
+
+* componentes no react
+- são funções que retornam html
+- são formas de isolar pequenos trechos de código para reutilização
+- no react tudo é componente
+- o componente sempre começa com letra maiúscula > function App(){ return {} }
+- JSX = javascript + xml (seria o html dentro do javascript)
+
+* instalando o componente para implamentar rotas
+- yarn add react-router-dom
+- yarn add @types/react-router-dom -D
+
+
+* criando o projeto server ( rest full - node.js )
+
+- yarn init -y				gerando um novo projeto node na pasta selecionada
+- yarn add typescript -D		instalando o typescript	
+- yarn tsc --init			gera o arquivo de configuração do typescript
+- yarn add ts-node-dev -D		executa o script e já reestarta o servidor
+
+criando o script no package.json
+"start": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn src/server.ts"
+
+- yarn add express			instala o express
+- yarn add @types/express -D		instala os tipos para utilização do express para typescript
+- yarn add knex sqlite3			instala o sqlite acesso ao banco sqlite e o knex para fazer instruções ao banco utilizando js
+- yarn add cors				permite aplicações de outros endereços façam acesso ao API	
+- yarn add @types/cors -D		instala o suporte ao typescript
+- yarn add axios			instala o pacote para acessar a api rest)
+
+- configurando o sqlite e knex
+  criar a pasta database e o arquivo connection.ts
+  criar o arquivo de configuração knexfile.ts com os parâmetros para migrations
+  criar o arquivo de atualização do banco, criação das tabelas
+  criar os scripts de execução das funções do knex
+  instalar a extensão sqlite para conseguir abrir o banco de dados que será gerado
+  "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
+  "knex:migrate:rollback": "knex --knexfile knexfile.ts migrate:rollback"
+  executando: yarn knex:migrate
+
+- seleciona uma palavra e tecla > control + shift + L 
+  para alterar todos os textos do arquivo
+
+
+
+
+* criando um novo projeto react (web)
+--------------------------------------------------------------------------------------------------------------
+
+instalar o expo
+yarn global add expo-cli
+
+expo init mobile
+typescript blank
+yarn start
+
+para executar
+expo start
+instalar o aplicativo expo client
+ler o qrcode (tem que estar na mesma rede)
+
+instalando fontes
+expo install expo-font @expo-google-fonts/archivo @expo-google-fonts/poppins
+
+instalando componentes de navegação do react native (https://reactnavigation.org/docs/getting-started)
+yarn add @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+yarn add @react-navigation/stack
+yarn add @react-navigation/bottom-tabs
+
+instalando componente para acesso a api
+yarn add axios
+
+isntalando biblioteca para gravar dados no celular
+expo install @react-native-community/async-storage
