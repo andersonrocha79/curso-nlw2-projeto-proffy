@@ -1,9 +1,9 @@
-# curso-nlw2-projeto-proffy
+# semana NLW 2 > projeto proffy
 projeto proffy desenvolvido no NLW 2 da Rocketseat
 
-NLW2 de 08/2020
+# NLW2 de 08/2020
 
-ferramentas e bibliotecas:
+# ferramentas e bibliotecas:
 - node, yarn e vscode
 - react-router-dom
 - typescript
@@ -14,12 +14,12 @@ ferramentas e bibliotecas:
 - expo-cli
 - react
 
-O projeto está dividido em 3 pastas
+O projeto está dividido em 3 pastas:
 server: servidor que armazena as informações do projeto web / mobile (api restfull)
 web: projeto web ( react - typescript )
 mobile: projeto mobile ( react native - typescript)
 
-instalando o projeto:
+# instalando o projeto:
 
 - instalar o node
 
@@ -37,7 +37,7 @@ instalando o projeto:
 - acessar a subpasta 'mobile' e executar o comando para baixar as dependências:
   npm install
 
-executando os projetos:
+# executando os projetos:
 
 - iniciando o servidor (api rest)
   executar o comando na pasta 'server'
