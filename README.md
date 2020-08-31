@@ -84,9 +84,9 @@ mobile: projeto mobile ( react native - typescript)
   ![projeto_web_executando](https://user-images.githubusercontent.com/59916650/91672355-6bd8fa80-eb04-11ea-8f70-ad1583b27351.png)
 
 
-### iniciando o projeto mobile
+## iniciando o projeto mobile
 
-  executar o comando na pasta 'mobile'
+  Executar o comando na pasta 'mobile'
   ```
   npm start  
   ```
@@ -99,18 +99,19 @@ mobile: projeto mobile ( react native - typescript)
   Após fazer a leitura do 'qrCode' o aplicativo será executado no celular
   
 
-### executando o projeto mobile
+## executando o projeto mobile
 
   ![executando_servidor_expo](https://user-images.githubusercontent.com/59916650/91672399-b3f81d00-eb04-11ea-96de-dec90e9e5cdf.png)
 
 
-### servidor 'expo' executando
+## servidor 'expo' executando
   ![metro_bundler_executando](https://user-images.githubusercontent.com/59916650/91672418-d68a3600-eb04-11ea-81c3-670bba976596.png)
   
   
-### aplicativo 'expo' executando no celular
-  ![aplicativo-expo-executando](https://user-images.githubusercontent.com/59916650/91672483-51ebe780-eb05-11ea-91bb-972daa50e6aa.png)
+## aplicativo 'expo' executando no celular
+  ![aplicativo-expo-executando](https://user-images.githubusercontent.com/59916650/91672782-bc515780-eb06-11ea-89d7-b927cacdbf8f.png)
 
 
-### aplicativo 'proffy' executando no celular após leitura do qrcode
-  ![aplicativo-proffy-executando-celular](https://user-images.githubusercontent.com/59916650/91672486-59ab8c00-eb05-11ea-8704-76372968951d.png)
+## aplicativo 'proffy' executando no celular após leitura do qrcode
+  ![aplicativo-proffy-executando-celular](https://user-images.githubusercontent.com/59916650/91672787-c4a99280-eb06-11ea-90cc-0ad476daf457.png)
+  
